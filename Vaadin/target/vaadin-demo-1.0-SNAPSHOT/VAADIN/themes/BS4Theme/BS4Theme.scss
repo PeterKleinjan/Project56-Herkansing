@@ -1,0 +1,157 @@
+@import "../valo/valo.scss";
+
+@mixin BS4Theme {
+    @include valo;
+    // Insert your own theme rules here
+
+    .contentStyle{
+        min-height: 330px;
+    }
+
+    .Dashboard {
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        height: 100%;
+        font-family: Verdana;
+        font-size: 11px;
+        overflow: hidden;
+    }
+
+    .DashboardMenu {
+        float: left;
+        padding: 20px;
+        width: 20%;
+        height: 100%;
+        background-color: #2a2a2a;
+        color: #FFFFFF;
+        font-weight: bold;
+    }
+
+    .DashboardMenuTopLabel {
+        font-size: 24px;
+        font-weight: bold;
+        color: #FFFFFF;
+        border-bottom: 1px solid #FFFFFF;
+    }
+
+    .DashboardContent {
+        float: left;
+        width: 80%;
+        height: 100%;
+        margin: 0px;
+        padding: 20px;
+        color: #000000;
+        overflow-y: scroll;
+    }
+
+    .DashboardContentLabel {
+        font-weight: bold;
+        font-size: 20px;
+        color: #000000;
+    }
+
+    .DashboardOverviewProductsPerShopLabel {
+        font-weight: bold;
+        font-size: 18px;
+        color: #000000;
+    }
+
+    .Zoekbalk {
+        width: 300px;
+        float: right;
+        margin-right: 10%;
+    }
+
+    .Productinfo {
+        margin: 0;
+    }
+
+    .Productinfotext {
+        padding: 20px;
+    }
+
+    .Prijsbutton {
+            margin: 5px;
+            width: 210px;
+            text-align: right;
+     }
+
+    .winkelwagenButtonstyle{
+        margin: 5px;
+        width: 200px;
+    }
+
+    .Prijsbutton {
+        margin: 5px;
+        width: 220px;
+        text-align: right;
+    }
+    .Prijsbuttonselected{
+        margin: 5px;
+        width: 220px;
+        text-align: right;
+        border: 1px solid blue;
+    }
+
+    .winkelwagenTable{
+        height: 70%;
+    }
+    .shopOptimizer{
+        height:auto;
+        margin:5px;
+        margin-bottom:20px;
+    }
+
+    .Productlink{
+        margin: 5px;
+        width: 340px;
+        text-align: center;
+    }
+
+    .ProductlinkSelected{
+        margin: 5px;
+        width: 340px;
+        text-align: center;
+        border: 1px solid blue;
+    }
+    .Verwijderbutton{
+        margin: 10px;
+        width: 360px;
+        text-align: center;
+        margin-left: 37px;
+    }
+    .Gridlayout{
+        margin: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .Gridlayoutcontent{
+        margin: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+        padding: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+        border: 2px solid gray;
+    }
+    .Gridlayoutcontentpanel{
+        text-align: center;
+        border: 2px solid gray;
+        margin-bottom: 10px;
+    }
+    .Gridlayoutstatus{
+        text-align: center;
+    }
+    .Progressmargin{
+        margin-bottom: 13px;
+    }
+
+    .graphsContainer{
+        padding: 20px;
+        margin:20px;
+        border-bottom: 1px solid dimgrey;
+    }
+
+}
